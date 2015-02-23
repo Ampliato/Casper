@@ -552,7 +552,7 @@ margin on the iframe, cause it breaks stuff. */
 .blog-logo {
     display: block;
     float: left;
-    background: none !important;
+    background: none!important;
     border: none !important;
 }
 
@@ -657,12 +657,12 @@ margin on the iframe, cause it breaks stuff. */
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
-    margin: 10px 0 10px 0;
+    margin: 0px 0 0px 0;
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
-    color: #fff;
+    color: #013352 !important;
 }
 
 .page-description {
@@ -672,7 +672,7 @@ margin on the iframe, cause it breaks stuff. */
     font-weight: 400;
     font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
-    color: rgba(255,255,255,0.8);
+    color: #01a3d5 !important;
 }
 
 .no-cover.main-header {
@@ -1777,3 +1777,13 @@ body:not(.post-template) .post-title {
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+
+.blog-logo-center {
+    margin: 0;
+    font-size: 2rem;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+    letter-spacing: 0.01rem;
+    color: rgba(255,255,255,0.8);
+}
