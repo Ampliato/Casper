@@ -1,15 +1,17 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700|Fjalla+One' rel='stylesheet' type='text/css'>
+              
 {{! The big featured header }}
-<header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+<header class="main-header no-cover">
     <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="{{@blog.url}}"><img src="assets/images/logo_grey.png" alt="Blog Logo" /></a>
+        <a class="blog-logo hvr-grow" href="{{@blog.url}}"><img src="assets/images/logo_grey.png" alt="Ampliato"></a>
         <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <a class="page-title blog-logo-center" href="{{@blog.url}}"><img src="{{@blog.logo}}" width="136" height="122" alt="Blog Logo" /></a>
+            <a class="page-title blog-logo-center hvr-grow" href="http://www.ampliato.com.br"><img src="{{@blog.logo}}" width="136" height="122" alt="Blog Logo" /></a>
             <h1 class="page-title">{{@blog.title}}</h1>
             <h2 class="page-description">{{@blog.description}}</h2>
         </div>
